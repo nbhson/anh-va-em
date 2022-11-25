@@ -161,7 +161,7 @@
     "import Vue from 'vue'\nimport VueRouter from 'vue-router'\n\nVue.use(VueRouter)\n\nconst routes = [\n    { path: '/', component: require('./components/home/Home.vue').default },\n]\n\nconst Router = new VueRouter({\n    routes, // short for `routes: routes`\n    mode: \"history\"\n})\n\nexport default Router",
     "import Vue from 'vue'\nimport App from './App.vue'\nimport Router from './routes'\n\nVue.config.productionTip = false\n\nnew Vue({\n  render: h => h(App),\n  router: Router\n}).$mount('#app')\n",
     "module.exports = __webpack_public_path__ + \"./img/heart.1f4198aa.svg\";",
-    "module.exports = __webpack_public_path__ + \".cloud1.2167fed1.png\";",
+    "module.exports = __webpack_public_path__ + \"cloud1.2167fed1.png\";",
     "module.exports = __webpack_public_path__ + \"./img/cloud2.41d1e779.png\";",
     "module.exports = __webpack_public_path__ + \"img/./cloud3.7c878e08.png\";",
     "module.exports = __webpack_public_path__ + \"./img/em.33d5ea3e.jpg\";",
