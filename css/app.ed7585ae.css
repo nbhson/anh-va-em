@@ -4,7 +4,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden
+  overflow: hidden;
+  user-select: none;
 }
 
 .banner .clouds img[data-v-a157d436] {
@@ -183,7 +184,7 @@ body {
 
 span {
   position: absolute;
-  background: url(./img/heart.1f4198aa.svg);
+  background: url(../img/heart.1f4198aa.svg);
   pointer-events: none;
   transform: translate(-50%, -50%);
   width: 100px;
